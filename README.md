@@ -1,0 +1,1 @@
+This plugin adds Google Analytics tracking to the OctoberCMS.
