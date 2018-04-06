@@ -5,16 +5,16 @@
  * @license MIT http://opensource.org/licenses/MIT
  */
 
-namespace Frankdev\GoogleAnalytics;
+namespace Bdynamic\GoogleAnalytics;
 
 use System\Classes\PluginBase;
 use System\Classes\SettingsManager;
-use Frankdev\GoogleAnalytics\Models\Settings;
-use Frankdev\GoogleAnalytics\Components\GoogleAnalyticsCode;
+use Bdynamic\GoogleAnalytics\Models\Settings;
+use Bdynamic\GoogleAnalytics\Components\GoogleAnalyticsCode;
 
 /**
  * Class Plugin
- * @package Frankdev\GoogleAnalytics
+ * @package Bdynamic\GoogleAnalytics
  *
  * @author franciscobarrento
  * @since 1.0.0
@@ -29,7 +29,7 @@ class Plugin extends PluginBase
         return [
             'name' => 'Simple Google Analytics',
             'description' => 'Provides the Google Analytics tracking',
-            'author' => 'BDYNAMIC',
+            'author' => 'Francisco Barrento',
             'homepage' => 'https://bdynamic.pt'
         ];
     }
@@ -52,6 +52,17 @@ class Plugin extends PluginBase
                 'class'       => Settings::class,
                 'order'       => 500,
                 'keywords'    => 'google analytics control id',
+                'permissions' => ['']
+            ]
+        ];
+    }
+
+    public function registerPermissions()
+    {
+        return [
+            'bdynamic.googleanalytics.access_settings' => [
+                'tab' => 'bdynamic.googleanalytics::lang.permissions.tab',
+                'label' => 'bdynamic.googleanalytics::lang.permissions.settings'
             ]
         ];
     }

@@ -5,14 +5,14 @@
  * @license MIT http://opensource.org/licenses/MIT
  */
 
-namespace Frankdev\GoogleAnalytics\Components;
+namespace Bdynamic\GoogleAnalytics\Components;
 
 use Cms\Classes\ComponentBase;
-use Frankdev\GoogleAnalytics\Models\Settings;
+use Bdynamic\GoogleAnalytics\Models\Settings;
 
 /**
  * Class Analytics
- * @package Frankdev\GoogleAnalytics\Components
+ * @package Bdynamic\GoogleAnalytics\Components
  *
  * @author franciscobarrento
  * @since 1.0.0

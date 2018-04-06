@@ -5,11 +5,11 @@
  * @license MIT http://opensource.org/licenses/MIT
  */
 
-namespace Frankdev\GoogleAnalytics\Models;
+namespace Bdynamic\GoogleAnalytics\Models;
 
 /**
  * Class Settings
- * @package Frankdev\GoogleAnalytics\Models
+ * @package Bdynamic\GoogleAnalytics\Models
  *
  * @author franciscobarrento
  * @since 1.0.0

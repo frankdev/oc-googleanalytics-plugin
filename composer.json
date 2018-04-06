@@ -1,5 +1,5 @@
 {
-    "name": "bdynamic/oc-googleanalytics-plugin",
+    "name": "frankdev/oc-googleanalytics-plugin",
     "description": "Easy Google Analytics OctoberCMS Plugin",
     "type": "october-plugin",
     "license": "MIT",
@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Frankdev\\GoogleAnalytics\\": ""
+            "Bdynamic\\GoogleAnalytics\\": ""
         }
     }
 }
