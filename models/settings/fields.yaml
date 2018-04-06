@@ -1,0 +1,10 @@
+fields:
+    active:
+        label: Enable Google Analytics
+        span: full
+        type: switch
+    code:
+        span: full
+        label: Google Analytics ID Code
+        type: text
+        placeholder: UA-XXXXX-Y

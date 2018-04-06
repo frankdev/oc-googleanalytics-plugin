@@ -1,0 +1,23 @@
+{
+    "name": "frankdev/oc-googleanalytics-plugin",
+    "description": "Easy Google Analytics OctoberCMS Plugin",
+    "type": "october-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Francisco Barrento",
+            "email": "francisco.barrento@bdynamic.pt",
+            "role": "Founder"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0",
+        "composer/installers": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Frankdev\\GoogleAnalytics\\": ""
+        }
+    }
+}
