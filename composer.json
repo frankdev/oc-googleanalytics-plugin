@@ -1,5 +1,5 @@
 {
-    "name": "frankdev/oc-googleanalytics-plugin",
+    "name": "bdynamic/oc-googleanalytics-plugin",
     "description": "Easy Google Analytics OctoberCMS Plugin",
     "type": "october-plugin",
     "license": "MIT",
