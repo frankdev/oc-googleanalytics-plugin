@@ -29,7 +29,7 @@ class Plugin extends PluginBase
         return [
             'name' => 'Simple Google Analytics',
             'description' => 'Provides the Google Analytics tracking',
-            'author' => 'FRANKDEV',
+            'author' => 'BDYNAMIC',
             'homepage' => 'https://bdynamic.pt'
         ];
     }
